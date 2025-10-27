@@ -1,6 +1,6 @@
-// TODO: Fix the compiler error without changing the function signature.
+// ✅ Fixed: convert the string literal into a String
 fn current_favorite_color() -> String {
-    "blue"
+    String::from("blue")
 }
 
 fn main() {
